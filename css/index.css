@@ -73,7 +73,7 @@ p {
     display: flex;
     justify-content: space-around;
 margin: 0 5% 0 2%;
-padding-left: 15%;
+padding-left: 16%;
 }
 .jumbo {
     width: 100%;
@@ -86,8 +86,7 @@ padding-left: 15%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin: 0 0 20px 6%;
-   /* border-bottom: 1px dashed black; */
+    margin-left: 7%;
 }
 
 .top-content .text-container {
@@ -98,12 +97,16 @@ padding-left: 15%;
 
 .middle-content {
     margin-bottom: 20px;
-   /* border-bottom: 1px dashed black; */
+    border-top: 2px dotted black;
+    border-bottom: 2px dotted black;
 }
 
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
+}
+span {
+    padding-left: 12%;
 }
 
 .middle-content .boxes {
